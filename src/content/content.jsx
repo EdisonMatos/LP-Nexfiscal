@@ -105,7 +105,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ASSESSORIA TRIBUTÁRIA EM BELÉM - PA",
+      miniTag: "ASSESSORIA TRIBUTÁRIA PARA SUA EMPRESA OU PESSOA FÍSICA",
       title: (
         <h1 className="mb-[16px]">
           Estratégias tributárias que geram
@@ -164,7 +164,7 @@ const content = {
       miniTag: "ESPECIALIDADES",
       title: "Soluções Tributárias de Excelência",
       subtitle:
-        "Estratégias personalizadas para garantir segurança jurídica e otimizar os resultados da sua empresa.",
+        "Estratégias personalizadas para garantir segurança e otimizar os resultados da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -444,21 +444,70 @@ const content = {
             "A consultoria tributária é um serviço especializado que visa analisar e otimizar a carga tributária de uma empresa, garantindo o cumprimento das obrigações fiscais e identificando oportunidades de economia. Sua importância reside na redução de custos, minimização de riscos fiscais e melhoria da competitividade no mercado.",
         },
         question2: {
-          question:
-            "Como escolher uma empresa de consultoria tributária adequada?",
-          answer:
-            "Ao selecionar uma consultoria tributária, é fundamental avaliar a experiência da empresa no seu ramo de atuação, verificar casos de sucesso e buscar indicações profissionais. Além disso, compreenda a metodologia utilizada e analise o custo-benefício, assegurando que a qualidade do serviço atenda às necessidades específicas do seu negócio.",
+          question: "Recebi um auto de infração, e agora?",
+          answer: (
+            <p>
+              Ao receber um auto de infração, o contribuinte deve, antes de
+              tudo, buscar o suporte de uma empresa ou profissional
+              especializado na seara tributária, que possui a expertise
+              necessária para identificar possíveis falhas na autuação e
+              elaborar uma defesa técnica eficiente, focada em reduzir ou até
+              mesmo anular o débito. <br />A atuação especializada no âmbito
+              administrativo pode evitar os custos e a morosidade de um processo
+              judicial, possibilitando a resolução da disputa de maneira mais
+              ágil e com menor impacto financeiro. Além disso, profissionais
+              experientes podem propor estratégias como adesão a programas de
+              parcelamento ou a análise de hipóteses de decadência ou prescrição
+              tributária, reduzindo substancialmente os valores devidos.,
+            </p>
+          ),
         },
         question3: {
           question:
-            "Quais são os benefícios de um bom planejamento tributário?",
-          answer:
-            "Um planejamento tributário eficaz proporciona maior segurança jurídica, redução de custos com impostos, escolha do regime tributário mais adequado e cumprimento das exigências fiscais. Além disso, contribui para a minimização de riscos e permite que a empresa se concentre em seu core business.",
+            "Quais são as vantagens do processo administrativo tributário?",
+          answer: (
+            <p>
+              O processo administrativo tributário oferece diversas vantagens ao
+              contribuinte, destacando-se pela celeridade, economia e maior
+              controle técnico sobre as questões em disputa. Uma das principais
+              vantagens é a possibilidade de resolver o conflito diretamente na
+              esfera administrativa, sem recorrer ao Judiciário, o que reduz
+              custos processuais, como honorários advocatícios e custas
+              judiciais. <br />
+              Além disso, outro benefício relevante é a suspensão da
+              exigibilidade do crédito tributário enquanto o processo
+              administrativo estiver em andamento, impedindo que o fisco adote
+              medidas coercitivas, como inscrição em dívida ativa ou execução
+              fiscal. O contribuinte ainda pode apresentar recursos em várias
+              instâncias administrativas, o que possibilita reavaliar as
+              decisões desfavoráveis sem custos adicionais. Por fim, o processo
+              administrativo permite a regularização espontânea de eventuais
+              pendências tributárias, evitando multas ou penalidades mais
+              gravosas e favorecendo uma solução mais consensual e menos onerosa
+              para ambas as partes.",
+            </p>
+          ),
         },
         question4: {
-          question: "Quanto custa uma consultoria tributária e fiscal?",
-          answer:
-            "O custo de uma consultoria tributária varia conforme a complexidade dos serviços, a experiência dos profissionais envolvidos e a abrangência do trabalho. Consultorias mais abrangentes tendem a ter um custo mais elevado, mas podem oferecer um retorno significativo em termos de economia tributária e eficiência operacional.",
+          question: "Quanto custa uma consultoria tributária?",
+          answer: (
+            <p>
+              O custo de uma consultoria tributária pode variar de acordo com a
+              complexidade do caso e o volume de documentos a serem analisados,
+              mas o investimento geralmente é muito menor do que os benefícios
+              que ela pode proporcionar. Na NexFiscal, valorizamos a
+              transparência e a confiança desde o primeiro contato, oferecendo
+              uma consulta inicial completamente gratuita. <br />
+              Durante essa consulta, nossos especialistas irão identificar o
+              problema tributário enfrentado pelo cliente, analisando as
+              principais questões envolvidas e traçando uma estratégia
+              personalizada para solucionar a demanda. Após a análise
+              preliminar, a NexFiscal propõe soluções adaptadas às necessidades
+              do cliente, sempre focando na redução de custos e na resolução do
+              problema de forma ágil e eficiente, especialmente no âmbito
+              administrativo fiscal, sem necessidade de recorrer ao Judiciário.,
+            </p>
+          ),
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
