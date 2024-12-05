@@ -113,7 +113,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "Soluções inovadoras em contencioso administrativo para segurança e crescimento sustentável.",
+        "Estratégias inovadoras para maximizar seus resultados e reduzir custos tributários.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
