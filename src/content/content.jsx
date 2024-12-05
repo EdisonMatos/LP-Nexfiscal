@@ -162,7 +162,7 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções Tributárias de Excelência",
+      title: "Soluções tributárias de excelência",
       subtitle:
         "Estratégias personalizadas para garantir segurança e otimizar os resultados da sua empresa.",
       imgFeatures: imgFeatures,
@@ -458,7 +458,7 @@ const content = {
               ágil e com menor impacto financeiro. Além disso, profissionais
               experientes podem propor estratégias como adesão a programas de
               parcelamento ou a análise de hipóteses de decadência ou prescrição
-              tributária, reduzindo substancialmente os valores devidos.,
+              tributária, reduzindo substancialmente os valores devidos.
             </p>
           ),
         },
@@ -484,7 +484,7 @@ const content = {
               administrativo permite a regularização espontânea de eventuais
               pendências tributárias, evitando multas ou penalidades mais
               gravosas e favorecendo uma solução mais consensual e menos onerosa
-              para ambas as partes.",
+              para ambas as partes.
             </p>
           ),
         },
@@ -505,7 +505,7 @@ const content = {
               preliminar, a NexFiscal propõe soluções adaptadas às necessidades
               do cliente, sempre focando na redução de custos e na resolução do
               problema de forma ágil e eficiente, especialmente no âmbito
-              administrativo fiscal, sem necessidade de recorrer ao Judiciário.,
+              administrativo fiscal, sem necessidade de recorrer ao Judiciário.
             </p>
           ),
         },
