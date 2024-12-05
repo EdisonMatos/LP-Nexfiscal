@@ -5,6 +5,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -25,13 +26,15 @@ export default function Cta() {
             sectionHeaderSubtitle={content.texts.cta.subtitle}
             color="dark"
           />
-          <Button
-            aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label={content.texts.cta.ctaButtonText}
-            buttonLink={whatsappContactLink}
-            animation
-            icon={<FaWhatsapp size={24} />}
-          />
+          <MotionDivDownToUp>
+            <Button
+              aria-label={content.texts.hero.ctaButtonAriaLabel}
+              label={content.texts.cta.ctaButtonText}
+              buttonLink={whatsappContactLink}
+              animation
+              icon={<FaWhatsapp size={24} />}
+            />
+          </MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>
 
