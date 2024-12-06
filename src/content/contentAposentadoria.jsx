@@ -1,21 +1,8 @@
-import bgImg from "../assets/imgs/hero/bgHero.webp";
+import bgImg from "../assets/imgs/hero/bgHeroPrevidenciario.webp";
 import logo from "../assets/imgs/logo/logo.png";
+import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
-
-const infos = {
-  name: "Juliano Aleixo",
-  phone: {
-    ddd: "69",
-    firstPart: "99980", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7532", // Apenas os 4 últimos números
-  },
-  email: "contato", // Email desejado pelo cliente
-  domain: "julianoaleixoadvocacia.com.br", // Sem "www"
-  instagramProfile: "adv.julianoaleixo", // Sem o @
-  whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
-};
 
 const contentAposentadoria = {
   infos: {
@@ -30,11 +17,12 @@ const contentAposentadoria = {
     textArea: {
       title: (
         <h1>
-          Aposentadoria <span className="text-primary">Aposentadoria</span>
+          Aposentado com <span className="text-lpTitle"> doenças graves?</span>{" "}
+          Você pode estar pagando{" "}
+          <span className="text-lpTitle">impostos a mais! </span>
         </h1>
       ),
-      subtitle:
-        "Direitos trabalhistas não podem ser ignorados. Nós estamos prontos para agir rápido e buscar o que é seu por direito.",
+      subtitle: "A Definir",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -42,102 +30,29 @@ const contentAposentadoria = {
   },
   features: {
     sectionHeader: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Como podemos te ajudar?",
+      miniTag: "A Definir",
+      title: "A Definir",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-history"
-          >
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-            <path d="M12 7v5l4 2" />
-          </svg>
-        ),
-        title: "Hora extra e Verba rescisória",
-        description:
-          "Se você não recebeu pelas horas extras trabalhadas ou sua rescisão foi paga de forma incompleta, entraremos com ação para garantir o pagamento integral e corrigido de seus direitos.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
-          >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-          </svg>
-        ),
-        title: "Insalubridade e Periculosidade",
-        description:
-          "Buscaremos na justiça o adicional de insalubridade ou periculosidade que a empresa deixou de pagar, cobrando tudo que é devido.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
       card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-frown"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
-          </svg>
-        ),
-        title: "Assédio Moral",
-        description:
-          "Sofreu abusos no trabalho? Uma ação de assédio moral com foco em reparar os danos sofridos, garantindo justiça e dignidade para você.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
-          </svg>
-        ),
-        title: "Atraso Salarial",
-        description:
-          "Acionamos judicialmente a empresa para que os valores sejam pagos com correção, assegurando seu sustento sem mais demora.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
     },
   },
@@ -148,19 +63,13 @@ const contentAposentadoria = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
-      title: "Quem é Dr Juliano Aleixo",
+      miniTag: "A Definir",
+      title: "A Definir",
     },
     paragraph: (
       <p>
-        Na minha rotina diária, entendo que rapidez é fundamental para nossos
-        clientes, especialmente em questões trabalhistas. Por isso, atuo de
-        forma ágil e estratégica, sem comprometer a qualidade. Com foco em
-        garantir que seus direitos sejam resguardados com eficiência e
-        determinação. <br />
-        <br /> Independentemente do seu problema trabalhista, estou pronto para
-        oferecer a melhor solução jurídica. Entre em contato com Juliano Aleixo
-        Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
+        A Definir <br />
+        <br /> A Definir
       </p>
     ),
     buttonLabel: "Quero falar com um especialista",
@@ -168,121 +77,38 @@ const contentAposentadoria = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A MELHOR ESCOLHA",
-      title: "Por que nos escolher pra te defender?",
+      miniTag: "A Definir",
+      title: "A Definir",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-brain"
-          >
-            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
-            <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" />
-            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" />
-            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" />
-            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
-            <path d="M3.477 10.896a4 4 0 0 1 .585-.396" />
-            <path d="M19.938 10.5a4 4 0 0 1 .585.396" />
-            <path d="M6 18a4 4 0 0 1-1.967-.516" />
-            <path d="M19.967 17.484A4 4 0 0 1 18 18" />
-          </svg>
-        ),
-        title: "Estratégia personalizada para garantir seus direitos",
-        description:
-          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia para você sair vitorioso.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-ruler"
-          >
-            <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" />
-            <path d="m14.5 12.5 2-2" />
-            <path d="m11.5 9.5 2-2" />
-            <path d="m8.5 6.5 2-2" />
-            <path d="m17.5 15.5 2-2" />
-          </svg>
-        ),
-        title: "Soluções sob medida para o seu problema",
-        description:
-          "Seu caso é único, e nós desenvolvemos um plano de ação específico para resolver suas questões trabalhistas com agilidade.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
       card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake"
-          >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
-          </svg>
-        ),
-        title: "Compromisso total com sua causa",
-        description:
-          "Lutamos de forma incansável pelos seus direitos, buscando a solução mais favorável para você em cada etapa do processo.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
       card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-hourglass"
-          >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
-          </svg>
-        ),
-        title: "Experiência que traz tranquilidade",
-        description:
-          "Nossa expertise garante que seu caso será tratado com segurança e confiança, assegurando a proteção total dos seus direitos trabalhistas.",
+        icon: "A Definir",
+        title: "A Definir",
+        description: "A Definir",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA MAIS TEMPO",
-      title: "Seja ressarcido por prejuízos trabalhistas agora mesmo!",
-      subtitle: `O escritório Juliano Aleixo Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir sua indenização por demissões indevidas, salários atrasados ou qualquer violação de direitos. Não deixe que essas situações prejudiquem sua vida profissional.`,
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: `A Definir`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
