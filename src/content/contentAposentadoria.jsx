@@ -128,7 +128,7 @@ const contentAposentadoria = {
         ),
         title: "Rendimentos elegíveis",
         description:
-          "Valores recebidos exclusivamente de aposentadoria, pensão ou reforma.",
+          "Entenda quais rendimentos podem ser isentos de Imposto de Renda, como aposentadorias, pensões e benefícios decorrentes de condições de saúde, e garanta que você não pague impostos indevidos. ",
       },
     },
   },
