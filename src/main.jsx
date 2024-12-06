@@ -6,12 +6,18 @@ import "./index.css";
 import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
 import LandingPage from "./pages/LandingPage.jsx";
+import LpAposentadoria from "./pages/LpAposentadoria.jsx";
+import LpItbi from "./pages/LpItbi.jsx";
+import LpMedicos from "./pages/LpMedicos.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      {/* <Route path="/lpx1" element={<LandingPage />} /> */}
+      <Route path="/lp" element={<LandingPage />} />
+      <Route path="/aposentadoria" element={<LpAposentadoria />} />
+      <Route path="/itbi" element={<LpItbi />} />
+      <Route path="/medicos" element={<LpMedicos />} />
     </Routes>
   </Router>
 );
