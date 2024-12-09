@@ -12,7 +12,7 @@ export default function FooterLP() {
               {contentMedicos.footer.copyrightLine}
               <br />
               <br />
-              {contentMedicos.footer.disclaimer}
+              {/* {contentMedicos.footer.disclaimer} */}
             </p>
           </div>
         </SectionWrapper>
