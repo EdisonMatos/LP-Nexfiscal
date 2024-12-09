@@ -12,7 +12,7 @@ export default function FooterLP() {
               {contentAposentadoria.footer.copyrightLine}
               <br />
               <br />
-              {contentAposentadoria.footer.disclaimer}
+              {/* {contentAposentadoria.footer.disclaimer} */}
             </p>
           </div>
         </SectionWrapper>

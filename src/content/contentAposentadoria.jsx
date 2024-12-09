@@ -128,7 +128,7 @@ const contentAposentadoria = {
         ),
         title: "Rendimentos elegíveis",
         description:
-          "Entenda quais rendimentos podem ser isentos de Imposto de Renda, como aposentadorias, pensões e benefícios decorrentes de condições de saúde, e garanta que você não pague impostos indevidos. ",
+          "A Lei 7.713/88 isenta de Imposto de Renda aposentadorias, reformas de pessoas com doenças graves, indenizações por acidente de trabalho e benefícios por invalidez permanente. Esses rendimentos, quando dentro das condições legais, não devem ser tributados. Conheça seus direitos e evite pagar impostos indevidos.",
       },
     },
   },
