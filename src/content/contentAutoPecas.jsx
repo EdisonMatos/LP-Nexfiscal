@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 
 const contentAutoPecas = {
   infos: {
-    name: "A Definir",
+    name: "Nexfiscal",
   },
   hero: {
     bgImg: bgImg,
@@ -17,64 +17,187 @@ const contentAutoPecas = {
     textArea: {
       title: (
         <h1>
-          Itbi <span className="text-lpTitle"> doenças graves?</span> Você pode
-          estar pagando <span className="text-lpTitle">impostos a mais! </span>
+          Transforme
+          <span className="text-lpTitle"> impostos </span> em economia real para
+          sua empresa de
+          <span className="text-lpTitle"> autopeças!</span>
         </h1>
       ),
-      subtitle: "A Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle:
+        "Empresas do setor de autopeças optantes pelo Simples Nacional podem economizar valores significativos de PIS e Cofins Monofásicos pagos a mais. Aproveite essa oportunidade para otimizar suas finanças com segurança e eficiência.",
+      buttonLabel: "Solicitar análise gratuita agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "QUEM PODE SE BENEFICIAR",
+      title:
+        "Descubra se sua empresa pode recuperar valores pagos indevidamente!",
     },
     cards: {
       card1: {
-        icon: "A Definir",
-        title: "A Definir",
-        description: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car-front"
+          >
+            <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" />
+            <path d="M7 14h.01" />
+            <path d="M17 14h.01" />
+            <rect width="18" height="8" x="3" y="10" rx="2" />
+            <path d="M5 18v2" />
+            <path d="M19 18v2" />
+          </svg>
+        ),
+        title: "Empresas de Autopeças no Simples Nacional",
+        description:
+          "Identifique tributos pagos a mais e otimize seus recursos financeiros.",
       },
       card2: {
-        icon: "A Definir",
-        title: "A Definir",
-        description: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        title: "Negócios com PIS e Cofins Monofásicos",
+        description:
+          "Verifique se sua tributação está correta e evite prejuízos acumulados.",
       },
       card3: {
-        icon: "A Definir",
-        title: "A Definir",
-        description: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-wallet"
+          >
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+          </svg>
+        ),
+        title: "Empresas que desejam melhorar o fluxo de caixa",
+        description:
+          "Liberte-se de custos desnecessários e invista no crescimento da sua empresa.",
       },
       card4: {
-        icon: "A Definir",
-        title: "A Definir",
-        description: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-check-2"
+          >
+            <path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="m3 15 2 2 4-4" />
+          </svg>
+        ),
+        title: "Gestores em busca de conformidade tributária",
+        description:
+          "Garanta transparência e segurança em suas obrigações fiscais.",
       },
     },
   },
   steps: {
     sectionHeader: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "SEGURANÇA",
+      title: "Garantias legais",
+      subtitle: "Com apenas alguns passos, o seu problema está resolvido",
     },
     cards: {
       card1: {
-        number: 1,
-        title: "A Definir",
+        number: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        title: "Trabalho 100% em conformidade com a legislação tributária",
         description: "A Definir",
       },
       card2: {
-        number: 1,
-        title: "A Definir",
+        number: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        title: "Equipe qualificada e ética",
         description: "A Definir",
       },
       card3: {
-        number: 1,
-        title: "A Definir",
+        number: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        title: "Acompanhamento completo do início ao fim do processo",
         description: "A Definir",
       },
     },

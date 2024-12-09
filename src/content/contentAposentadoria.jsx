@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 
 const contentAposentadoria = {
   infos: {
-    name: "A Definir",
+    name: "NexFiscal",
   },
   hero: {
     bgImg: bgImg,

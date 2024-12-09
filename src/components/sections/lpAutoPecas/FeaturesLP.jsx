@@ -26,6 +26,16 @@ export default function FeaturesLP({ className }) {
               title={contentAutoPecas.features.cards.card2.title}
               description={contentAutoPecas.features.cards.card2.description}
             />
+            <FeatureCardLP
+              icon={contentAutoPecas.features.cards.card3.icon}
+              title={contentAutoPecas.features.cards.card3.title}
+              description={contentAutoPecas.features.cards.card3.description}
+            />
+            <FeatureCardLP
+              icon={contentAutoPecas.features.cards.card4.icon}
+              title={contentAutoPecas.features.cards.card4.title}
+              description={contentAutoPecas.features.cards.card4.description}
+            />
           </div>
         </SectionWrapper>
       </SectionArea>

@@ -15,50 +15,50 @@ export default function Steps({ className }) {
             miniTitle={contentAutoPecas.steps.sectionHeader.miniTag}
             className="text-center"
             sectionHeaderTitle={contentAutoPecas.steps.sectionHeader.title}
-            sectionHeaderSubtitle={
-              contentAutoPecas.steps.sectionHeader.subtitle
-            }
+            // sectionHeaderSubtitle={
+            //   contentAutoPecas.steps.sectionHeader.subtitle
+            // }
             color="dark"
           />
           <div className="flex flex-col items-center justify-center">
             <MotionDivDownToUp>
               <div className="flex text-center flex-col items-center desktop1:flex-wrap desktop1:flex-row justify-evenly w-full gap-[36px] tablet1:gap-[24px] font-mainFont mt-[42px] desktop1:mt-0">
                 <div className="flex flex-col justify-center items-center w-[270px] hover:scale-110 transition mb-[32px] desktop1:mb-0">
-                  <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
+                  <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-full flex justify-center items-center  text-white">
                     {contentAutoPecas.steps.cards.card1.number}
                   </div>
                   <h1 className="text-[21px] font-semibold mb-[24px]">
                     {contentAutoPecas.steps.cards.card1.title}
                   </h1>
-                  <p className="text-[16px] opacity-65 text-center">
+                  {/* <p className="text-[16px] opacity-65 text-center">
                     {contentAutoPecas.steps.cards.card1.description}
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex flex-col justify-center items-center w-[270px] hover:scale-110 transition mb-[32px] desktop1:mb-0">
-                  <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
+                  <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-full flex justify-center items-center  text-white">
                     {contentAutoPecas.steps.cards.card2.number}
                   </div>
                   <h1 className="text-[21px] font-semibold mb-[24px]">
                     {contentAutoPecas.steps.cards.card2.title}
                   </h1>
-                  <p className="text-[16px] opacity-65 text-center">
+                  {/* <p className="text-[16px] opacity-65 text-center">
                     {contentAutoPecas.steps.cards.card2.description}
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex flex-col justify-center items-center w-[270px] hover:scale-110 transition mb-[32px] desktop1:mb-0">
-                  <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
+                  <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-full flex justify-center items-center  text-white">
                     {contentAutoPecas.steps.cards.card3.number}
                   </div>
                   <h1 className="text-[21px] font-semibold mb-[24px]">
                     {contentAutoPecas.steps.cards.card3.title}
                   </h1>
-                  <p className="text-[16px] opacity-65 text-center">
+                  {/* <p className="text-[16px] opacity-65 text-center">
                     {contentAutoPecas.steps.cards.card3.description}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </MotionDivDownToUp>
-            <MotionDivDownToUp className="mt-[62px]">
+            {/* <MotionDivDownToUp className="mt-[62px]">
               <Button
                 aria-label={contentAutoPecas.hero.textArea.ctaButtonAriaLabel}
                 label={contentAutoPecas.steps.ctaButtonLabel}
@@ -77,7 +77,7 @@ export default function Steps({ className }) {
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
+            </MotionDivDownToUp> */}
           </div>
         </SectionWrapper>
       </SectionArea>
