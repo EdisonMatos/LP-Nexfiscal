@@ -4,7 +4,7 @@ import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
 
-const contentItbi = {
+const contentAutoPecas = {
   infos: {
     name: "A Definir",
   },
@@ -54,6 +54,31 @@ const contentItbi = {
         description: "A Definir",
       },
     },
+  },
+  steps: {
+    sectionHeader: {
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+    },
+    cards: {
+      card1: {
+        number: 1,
+        title: "A Definir",
+        description: "A Definir",
+      },
+      card2: {
+        number: 1,
+        title: "A Definir",
+        description: "A Definir",
+      },
+      card3: {
+        number: 1,
+        title: "A Definir",
+        description: "A Definir",
+      },
+    },
+    ctaButtonLabel: "A Definir",
   },
   about: {
     bgImg: bgImg,
@@ -183,4 +208,4 @@ const contentItbi = {
   },
 };
 
-export default contentItbi;
+export default contentAutoPecas;
