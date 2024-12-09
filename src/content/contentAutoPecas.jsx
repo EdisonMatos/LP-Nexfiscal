@@ -1,12 +1,12 @@
-import bgImg from "../assets/imgs/hero/bgHeroPrevidenciario.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroItbi.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
 
-const contentAposentadoria = {
+const contentAutoPecas = {
   infos: {
-    name: "NexFiscal",
+    name: "Nexfiscal",
   },
   hero: {
     bgImg: bgImg,
@@ -17,22 +17,24 @@ const contentAposentadoria = {
     textArea: {
       title: (
         <h1>
-          Aposentado com <span className="text-lpTitle"> doenças graves?</span>{" "}
-          Você pode estar pagando
-          <span className="text-lpTitle"> impostos a mais!</span>
+          Transforme
+          <span className="text-lpTitle"> impostos </span> em economia real para
+          sua empresa de
+          <span className="text-lpTitle"> autopeças!</span>
         </h1>
       ),
       subtitle:
-        "Se você é aposentado, pensionista ou militar da reserva/reforma com doenças graves reconhecidas pela Lei 7.713/88, pode ter direito à isenção de imposto de renda e até à restituição de valores pagos nos últimos 5 anos!",
-      buttonLabel: "Quero falar com um especialista",
+        "Empresas do setor de autopeças optantes pelo Simples Nacional podem economizar valores significativos de PIS e Cofins Monofásicos pagos a mais. Aproveite essa oportunidade para otimizar suas finanças com segurança e eficiência.",
+      buttonLabel: "Solicitar análise gratuita agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "QUEM TEM DIREITO",
-      title: "Verifique se você ou alguém da sua família se enquadra",
+      miniTag: "QUEM PODE SE BENEFICIAR",
+      title:
+        "Descubra se sua empresa pode recuperar valores pagos indevidamente!",
     },
     cards: {
       card1: {
@@ -47,17 +49,19 @@ const contentAposentadoria = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hourglass"
+            class="lucide lucide-car-front"
           >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+            <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" />
+            <path d="M7 14h.01" />
+            <path d="M17 14h.01" />
+            <rect width="18" height="8" x="3" y="10" rx="2" />
+            <path d="M5 18v2" />
+            <path d="M19 18v2" />
           </svg>
         ),
-        title: "Aposentados e pensionistas do INSS",
+        title: "Empresas de Autopeças no Simples Nacional",
         description:
-          "Descubra se você tem direito à isenção do Imposto de Renda e evite pagar mais do que o necessário.",
+          "Identifique tributos pagos a mais e otimize seus recursos financeiros.",
       },
       card2: {
         icon: (
@@ -71,14 +75,16 @@ const contentAposentadoria = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield"
+            class="lucide lucide-circle-dollar-sign"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
-        title: "Militares da reserva ou reforma remunerada",
+        title: "Negócios com PIS e Cofins Monofásicos",
         description:
-          "Verifique se você, como militar, tem direito a benefícios fiscais exclusivos. Nossa equipe especializada está pronta para te ajudar.",
+          "Verifique se sua tributação está correta e evite prejuízos acumulados.",
       },
       card3: {
         icon: (
@@ -92,18 +98,15 @@ const contentAposentadoria = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-stethoscope"
+            class="lucide lucide-wallet"
           >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
           </svg>
         ),
-        title: "Diagnóstico de doenças graves",
+        title: "Empresas que desejam melhorar o fluxo de caixa",
         description:
-          "Câncer (neoplasia maligna), cardiopatia grave, doença de Parkinson, esclerose múltipla, HIV/AIDS, hanseníase e hepatopatia grave, entre outras condições previstas pela legislação. É importante destacar que, no caso do câncer, não é necessário que o diagnóstico seja recente, podendo ter ocorrido anos atrás, mas ainda sendo válido para os efeitos legais.",
+          "Liberte-se de custos desnecessários e invista no crescimento da sua empresa.",
       },
       card4: {
         icon: (
@@ -117,20 +120,88 @@ const contentAposentadoria = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hand-coins"
+            class="lucide lucide-file-check-2"
           >
-            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
-            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
-            <path d="m2 16 6 6" />
-            <circle cx="16" cy="9" r="2.9" />
-            <circle cx="6" cy="5" r="3" />
+            <path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="m3 15 2 2 4-4" />
           </svg>
         ),
-        title: "Rendimentos elegíveis",
+        title: "Gestores em busca de conformidade tributária",
         description:
-          "A Lei 7.713/88 isenta de Imposto de Renda aposentadorias, reformas de pessoas com doenças graves, indenizações por acidente de trabalho e benefícios por invalidez permanente. Esses rendimentos, quando dentro das condições legais, não devem ser tributados. Conheça seus direitos e evite pagar impostos indevidos.",
+          "Garanta transparência e segurança em suas obrigações fiscais.",
       },
     },
+  },
+  steps: {
+    sectionHeader: {
+      miniTag: "SEGURANÇA",
+      title: "Garantias legais",
+      subtitle: "Com apenas alguns passos, o seu problema está resolvido",
+    },
+    cards: {
+      card1: {
+        number: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        title: "Trabalho 100% em conformidade com a legislação tributária",
+        description: "A Definir",
+      },
+      card2: {
+        number: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        title: "Equipe qualificada e ética",
+        description: "A Definir",
+      },
+      card3: {
+        number: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check"
+          >
+            <path d="M20 6 9 17l-5-5" />
+          </svg>
+        ),
+        title: "Acompanhamento completo do início ao fim do processo",
+        description: "A Definir",
+      },
+    },
+    ctaButtonLabel: "A Definir",
   },
   about: {
     bgImg: bgImg,
@@ -139,19 +210,18 @@ const contentAposentadoria = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM ISENÇÃO DE IMPOSTOS",
-      title: "Especialistas em Isenções: Agilidade e Segurança",
+      miniTag: "EXPERTISE EM CONSULTORIA TRIBUTÁRIA",
+      title: "Especialistas em recuperação tributária para autopeças",
     },
     paragraph: (
       <p>
-        Com anos de experiência, nossa equipe é especializada em legislação
-        tributária, com foco em isenções para aposentados, pensionistas e
-        militares. Entendemos que cada caso é único e exige uma análise
-        detalhada. <br />
-        <br /> Por isso, oferecemos um serviço completo, desde a análise inicial
-        do seu caso até a resolução de eventuais pendências. Conte conosco para
-        garantir que você tenha acesso a todos os benefícios tributários a que
-        tem direito, com segurança e agilidade.
+        Com vasta experiência em legislação tributária, nossa equipe é
+        especialista em identificar pagamentos indevidos de PIS e Cofins
+        Monofásicos. <br />
+        <br /> Trabalhamos com foco em empresas do setor de autopeças,
+        garantindo análises precisas e soluções rápidas. Conte com a NexFiscal
+        para transformar tributos pagos a mais em economia real e fortalecer a
+        competitividade do seu negócio.
       </p>
     ),
     buttonLabel: "Quero falar com um especialista",
@@ -175,19 +245,64 @@ const contentAposentadoria = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-newspaper"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
+            <path d="M18 14h-8" />
+            <path d="M15 18h-5" />
+            <path d="M10 6h8v4h-8V6Z" />
           </svg>
         ),
-        title: "Equipe especializada",
+        title: "Especialização Tributária",
         description:
-          "Profissionais capacitados para cuidar de toda a parte burocrática e técnica para você.",
+          "Analisamos as nuances da legislação tributária para garantir economia real no seu negócio.",
       },
       card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        ),
+        title: "Análise Gratuita",
+        description:
+          "Identifique possíveis valores pagos a maior sem custo inicial.",
+      },
+      card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-history"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M12 7v5l4 2" />
+          </svg>
+        ),
+        title: "Agilidade e Transparência",
+        description:
+          "Processos rápidos e atualizações constantes durante todas as etapas.",
+      },
+      card4: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -206,64 +321,20 @@ const contentAposentadoria = {
             <path d="M16 11h.01" />
           </svg>
         ),
-        title: "Economia garantida",
+        title: "Economia Garantida",
         description:
-          "Maximização de seus direitos para que você aproveite mais recursos financeiros.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-thumbs-up"
-          >
-            <path d="M7 10v12" />
-            <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
-          </svg>
-        ),
-        title: "Processo simplificado",
-        description:
-          "Nós cuidamos de tudo, você acompanha de forma transparente e segura.",
-      },
-      card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check"
-          >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-        ),
-        title: "Segurança e confidencialidade",
-        description:
-          "Protegemos suas informações com segurança e total confidencialidade.",
+          "Ajudamos a recuperar tributos pagos indevidamente, com total conformidade legal.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA MAIS TEMPO",
-      title: "Tenha mais tranquilidade e estabilidade financeira",
-      subtitle: `Liberte-se da burocracia e foque na sua saúde e bem-estar e recupere valores pagos indevidamente e evite gastos futuros desnecessários.`,
+      miniTag: "NÃO DEIXE DINHEIRO NA MESA",
+      title: "Economize agora!",
+      subtitle: `Sua empresa pode estar deixando de recuperar valores pagos indevidamente. Realize uma análise gratuita e descubra o quanto você pode economizar.`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Quero uma análise gratuita",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
@@ -337,4 +408,4 @@ const contentAposentadoria = {
   },
 };
 
-export default contentAposentadoria;
+export default contentAutoPecas;

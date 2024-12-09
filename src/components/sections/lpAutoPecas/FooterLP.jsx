@@ -1,4 +1,4 @@
-import contentItbi from "../../../content/contentItbi";
+import contentAutoPecas from "../../../content/contentAutoPecas";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 
@@ -9,10 +9,10 @@ export default function FooterLP() {
         <SectionWrapper>
           <div className="w-full text-center font-mainFont py-[36px] opacity-70">
             <p>
-              {contentItbi.footer.copyrightLine}
+              {contentAutoPecas.footer.copyrightLine}
               <br />
               <br />
-              {contentItbi.footer.disclaimer}
+              {/* {contentAutoPecas.footer.disclaimer} */}
             </p>
           </div>
         </SectionWrapper>

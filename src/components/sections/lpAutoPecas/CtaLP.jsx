@@ -1,4 +1,4 @@
-import contentMedicos from "../../../content/contentMedicos";
+import contentAutoPecas from "../../../content/contentAutoPecas";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
@@ -10,7 +10,7 @@ export default function AboutParalaxeLP() {
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${contentMedicos.cta.bgImg})`,
+        backgroundImage: `url(${contentAutoPecas.cta.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
@@ -21,18 +21,18 @@ export default function AboutParalaxeLP() {
             <SectionWrapper>
               <SectionHeader
                 className="text-center"
-                miniTitle={contentMedicos.cta.sectionHeader.miniTag}
-                sectionHeaderTitle={contentMedicos.cta.sectionHeader.title}
+                miniTitle={contentAutoPecas.cta.sectionHeader.miniTag}
+                sectionHeaderTitle={contentAutoPecas.cta.sectionHeader.title}
                 sectionHeaderSubtitle={
-                  contentMedicos.cta.sectionHeader.subtitle
+                  contentAutoPecas.cta.sectionHeader.subtitle
                 }
                 color=""
               />
               <MotionDivDownToUp>
                 <Button
-                  aria-label={contentMedicos.hero.textArea.ctaButtonAriaLabel}
-                  label={contentMedicos.cta.buttonLabel}
-                  buttonLink={contentMedicos.links.ctaWhatsapp}
+                  aria-label={contentAutoPecas.hero.textArea.ctaButtonAriaLabel}
+                  label={contentAutoPecas.cta.buttonLabel}
+                  buttonLink={contentAutoPecas.links.ctaWhatsapp}
                   animation
                   icon={
                     <svg

@@ -26,16 +26,6 @@ export default function FeaturesLP({ className }) {
               title={contentMedicos.features.cards.card2.title}
               description={contentMedicos.features.cards.card2.description}
             />
-            <FeatureCardLP
-              icon={contentMedicos.features.cards.card3.icon}
-              title={contentMedicos.features.cards.card3.title}
-              description={contentMedicos.features.cards.card3.description}
-            />
-            <FeatureCardLP
-              icon={contentMedicos.features.cards.card4.icon}
-              title={contentMedicos.features.cards.card4.title}
-              description={contentMedicos.features.cards.card4.description}
-            />
           </div>
         </SectionWrapper>
       </SectionArea>

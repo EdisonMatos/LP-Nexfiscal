@@ -1,4 +1,4 @@
-import contentMedicos from "../../../content/contentMedicos";
+import contentAutoPecas from "../../../content/contentAutoPecas";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
@@ -10,7 +10,7 @@ export default function AboutParalaxeLP() {
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${contentMedicos.about.bgImg})`,
+        backgroundImage: `url(${contentAutoPecas.about.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
@@ -22,34 +22,34 @@ export default function AboutParalaxeLP() {
               <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
                 <MotionDivDownToUp className="flex justify-center">
                   <img
-                    src={contentMedicos.about.logo.logoImg}
-                    alt={contentMedicos.about.logo.alt}
+                    src={contentAutoPecas.about.logo.logoImg}
+                    alt={contentAutoPecas.about.logo.alt}
                     className="w-[90%] desktop1:w-[70%]"
                   />
                 </MotionDivDownToUp>
                 <div className="desktop1:w-[60%]">
                   <SectionHeader
                     className="text-center"
-                    miniTitle={contentMedicos.about.sectionHeader.miniTag}
+                    miniTitle={contentAutoPecas.about.sectionHeader.miniTag}
                     sectionHeaderTitle={
-                      contentMedicos.about.sectionHeader.title
+                      contentAutoPecas.about.sectionHeader.title
                     }
                     color=""
                     type="article"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px]">
-                      {contentMedicos.about.paragraph}
+                      {contentAutoPecas.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="w-full">
                       <Button
                         aria-label={
-                          contentMedicos.hero.textArea.ctaButtonAriaLabel
+                          contentAutoPecas.hero.textArea.ctaButtonAriaLabel
                         }
-                        label={contentMedicos.about.buttonLabel}
-                        buttonLink={contentMedicos.links.ctaWhatsapp}
+                        label={contentAutoPecas.about.buttonLabel}
+                        buttonLink={contentAutoPecas.links.ctaWhatsapp}
                         animation
                         className=""
                         icon={

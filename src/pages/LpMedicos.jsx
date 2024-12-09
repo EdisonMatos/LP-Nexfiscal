@@ -6,6 +6,7 @@ import CtaLP from "../components/sections/lpMedicos/CtaLP";
 import FeaturesLP from "../components/sections/lpMedicos/FeaturesLP";
 import FooterLP from "../components/sections/lpMedicos/FooterLP";
 import HeroLP from "../components/sections/lpMedicos/HeroLP";
+import Steps from "../components/sections/lpMedicos/Steps";
 import WhyUs from "../components/sections/lpMedicos/WhyUs";
 
 export default function LpMedicos() {
@@ -13,8 +14,10 @@ export default function LpMedicos() {
     <div>
       <HeroLP />
       <FeaturesLP />
+      <Steps />
       <AboutParalaxeLP />
       <WhyUs />
+
       <CtaLP />
       <ContactLP />
       <FooterLP />
