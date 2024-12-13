@@ -61,7 +61,7 @@ const contentAutoPecas = {
         ),
         title: "Empresas de Autopeças no Simples Nacional",
         description:
-          "Identifique tributos pagos a mais e otimize seus recursos financeiros.",
+          "Auxiliamos empresas de autopeças enquadradas no Simples Nacional a navegarem pelas complexidades fiscais do setor, garantindo o correto aproveitamento de benefícios, evitando pagamentos indevidos e promovendo uma gestão tributária mais eficiente.",
       },
       card2: {
         icon: (
@@ -84,7 +84,7 @@ const contentAutoPecas = {
         ),
         title: "Negócios com PIS e Cofins Monofásicos",
         description:
-          "Verifique se sua tributação está correta e evite prejuízos acumulados.",
+          "A tributação monofásica concentra o pagamento de impostos apenas no primeiro elo da cadeia econômica, geralmente no importador ou na indústria. Ou seja, o imposto já é pago na origem e, as empresas subsequentes não deveriam arcar novamente com esse tributo. No entanto, devido à complexidade do sistema tributário brasileiro, muitas empresas do setor de autopeças acabam não segregando suas receitas corretamente, o que resulta no pagamento duplicado de tributos.",
       },
       card3: {
         icon: (
@@ -106,7 +106,7 @@ const contentAutoPecas = {
         ),
         title: "Empresas que desejam melhorar o fluxo de caixa",
         description:
-          "Liberte-se de custos desnecessários e invista no crescimento da sua empresa.",
+          "Invista no crescimento da sua empresa com uma simples, porém poderosa, revisão fiscal. Evite pagar impostos desnecessários daqui para frente, ajustando o que for preciso. Além disso, sua empresa pode recuperar tributos pagos a mais nos últimos 5 anos, colocando esse dinheiro de volta no seu caixa.",
       },
       card4: {
         icon: (
@@ -129,7 +129,7 @@ const contentAutoPecas = {
         ),
         title: "Gestores em busca de conformidade tributária",
         description:
-          "Garanta transparência e segurança em suas obrigações fiscais.",
+          "Gestores que buscam tranquilidade e segurança tributária podem contar com nossa expertise para garantir total conformidade às normas fiscais. Reduzimos riscos de autuações e promovemos práticas que protejam o negócio, enquanto otimizamos a gestão financeira e tributária.",
       },
     },
   },
