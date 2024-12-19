@@ -61,8 +61,8 @@ export const infos = {
   domain: "nexfiscal.com.br", // Sem "www"
   phone: {
     ddd: "91",
-    firstPart: "98218", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1585", // Apenas os 4 últimos números
+    firstPart: "98216", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9428", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
